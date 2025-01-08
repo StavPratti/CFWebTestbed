@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>A simple table</h1>
+    <table>
+        <tr>
+            <td>Lecture</td>
+            <td>Teacher</td>
+            <td>Day</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Thanashs</td>
+            <td>Monday</td>   
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Chris</td>
+            <td>Wednesday</td>
+        </tr>
+    </table>
+
+    <h1>THead, Tbody, Tfooter</h1>
+    <table>
+       <caption>Program</caption>
+    <thead>
+        <tr>
+            <th>Lecture</th>
+            <th>Teacher</th>
+            <th>Day</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Java</td>
+            <td>Thanashs</td>
+            <td>Monday</td>
+        </tr>
+    </tbody>
+    <!-- <tfoot>
+        <tr>
+            <td>Column1</td>
+            <td>Column2</td>
+            <td>Column3</td>
+        </tr>
+    </tfoot> -->
+    <tfoot>
+        <tr>
+            <td colspan="3">Coding Factory</td>
+        </tr>
+    </tfoot>
+    </table>  
+    <!-- thead & tbody are useful for css -->
+     <hr>
+
+    <table>
+        <thead>
+            <th>Lecture</th>
+            <th>Teacher</th>
+            <th>Day</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Java</td>
+                <td>Thanashs</td>
+                <td rowspan="2">Monday</td>
+            </tr>
+            <tr>
+                <td>Web</td>
+                <td>Markos, Panos</td>
+            </tr>
+        </tbody>
+    </table> 
+    table>tr*3>td*2
+</body>
+</html>

@@ -1,0 +1,9 @@
+ul {
+    background-color: aquamarine;
+    list-style: square;
+}
+
+ul li {
+    background-color: blueviolet;
+    color: blue;
+}

@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(172, 110, 34);
+}
+
+h1 {
+    color: red;
+}
+
+p, li {
+    color: rgb(0, 255, 255);
+    background-color: blanchedalmond;
+}
+
+/* .aueb-logo {
+    width: 80px;
+    color: red;
+    background-color: brown;
+} */
+
+img.aueb-logo {
+    height: auto;
+    border: 2px solid rgb(194, 194, 0);
+}
+
+.aueb-text {
+    color: rgb(130, 211, 24);
+    background-color: rgb(121, 9, 121);
+}
+
+/* #auebText {
+    color: blueviolet;
+} */
+
+ul > li {
+    color: blue;
+}
+
+ul strong {
+    background-color: grey;
+}
+
+ul em {
+    background-color: rgb(189, 31, 154);
+}
+
+h1 + p {
+    background-color: green;
+}
+
+/* link -> visited -> hover -> focus -> active */
+/* LoVeHateFeAr */
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: burlywood;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
+
+a:focus {
+    outline: none;
+    background-color: yellowgreen;
+}
+
+:active {
+    background-color: rgb(194, 16, 46);
+}

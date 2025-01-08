@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+}
+
+.aueb-img {
+    height: auto;
+    border: 2px solid palevioletred;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 0 black;
+    color: #767676;
+    text-align: center;
+    /* border: 2px solid palevioletred; */
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 0;
+    border-right: 0;
+    border-style: double;
+    border-color: yellowgreen;
+}
+

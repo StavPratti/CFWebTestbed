@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(223, 143, 46);
+}
+
+.ath-header {
+    background-color: brown;
+    /* color: beige; */
+}
+
+.skg-header {
+    background-color: aquamarine;
+    /* color: antiquewhite; */
+}
+
+.text {
+    background-color: aqua;
+    /* color: blue; */
+}
+
+.fg-light {
+    color: rgb(182, 207, 207);
+}
